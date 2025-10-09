@@ -1,0 +1,210 @@
+{
+  "main": {
+    "id": "816701a09f42cdca",
+    "type": "split",
+    "children": [
+      {
+        "id": "57853ae525f16a5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6e9dc396f0c0b47c",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "84f9b103f619427f",
+    "type": "split",
+    "children": [
+      {
+        "id": "636d2b9bca3db5c5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0129b3d0f7736d4",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "c512ff5929a46cd2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "core",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "6c9c0ab5314289f9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 383.505859375
+  },
+  "right": {
+    "id": "d5d4751697ba1cf7",
+    "type": "split",
+    "children": [
+      {
+        "id": "fd80f78bc4edd296",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7a5225300e54d7fd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Welcome.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Welcome"
+            }
+          },
+          {
+            "id": "38b82bdada654c99",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Welcome.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Welcome"
+            }
+          },
+          {
+            "id": "fdb41be5da27789a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "132732c3a044bf91",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Welcome.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Welcome"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "bases:Create new base": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "d0129b3d0f7736d4",
+  "lastOpenFiles": [
+    "JS/notes/env.md",
+    "JS/notes/Nullish Coalescing Operator.md",
+    "BC/Notes/library.md",
+    "BC/Notes/Constructor.md",
+    "BC/Notes/Modifier.md",
+    "BC/Notes/SOME IMPORTANT TERMS.md",
+    "BC/Notes/BigNumber in Ethers.js.md",
+    "JS/notes/BigInt (blockchain).md",
+    "react.js/notes/props, rules, Prop drilling.md",
+    "react.js/notes/Controlled Component.md",
+    "BC/Notes/Compile in js.md",
+    "node.js/notes/fs-extra.md",
+    "BC/Notes/ethers.js.md",
+    "BC/Notes/Ganache.md",
+    "BC/Notes/WSL, Gitpod.md",
+    "BC/Notes/ways to make the contract gas efficient.md",
+    "BC/Notes/transferring eth from contract to wallet.md",
+    "JS/notes/Node.js, NPM, corepack, yarn.md",
+    "JS/notes/What is promise.md",
+    "JS/notes/What is TypeScript.md",
+    "JS/notes/Map, filter and reduce.md",
+    "JS/notes/popups.md",
+    "JS/notes/splice and slice.md",
+    "JS/notes/sorting.md",
+    "JS/notes/Rest and Spread  Operator.md",
+    "JS/notes/Optional chaining.md",
+    "Untitled",
+    "DBMS/notes",
+    "OS and COA/notes",
+    "OOP/notes",
+    "OS and COA",
+    "DBMS",
+    "OOP",
+    "All Images/React images",
+    "All Images",
+    "All Images/React images/Pasted image 20250922185741.jpg",
+    "Pasted image 20250922185704.jpg",
+    "1721512746821.jpeg",
+    "BC/Notes"
+  ]
+}

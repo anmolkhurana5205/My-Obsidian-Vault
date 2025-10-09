@@ -1,0 +1,5 @@
+- it is basically interactive playground for js inside your terminal.
+- it stand for Read Eval Print Loop
+- open terminal and write 'node' and boom you are in REPL CLI.
+- it is basically for testing, exploring, debugging and understanding the things more clearly of node application.
+- and to exit press ctrl + c two times
