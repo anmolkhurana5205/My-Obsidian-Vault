@@ -23,6 +23,7 @@ genesis block
 gwei, wei
 hybrid smart contracts
 - **hash algorithm** - a function that computes data into a unique hash.
+- **hardhat** - Hardhat is a **development environment for Ethereum** and other EVM-compatible blockchains. It helps developers **compile, deploy, test, and debug smart contracts** efficiently. Think of it as a toolkit for building decentralized applications (dApps).
 Layer 1 block chain (bitcoin, ethereum and avalanche)
 Layer 2 block chain - any blockchain built on top of layer 1 ()
 metamask
@@ -38,6 +39,7 @@ node operators
 - PoW - 
 - PoS - 
 Roll ups - solution of scalability issue.
+- **RPC** - RPC stands for ==Remote Procedure Call==, which is a protocol that allows a client program (like a dApp or wallet) to execute a procedure or function on a remote server, such as a blockchain node. It acts as a bridge, enabling decentralized applications to interact with the blockchain by making requests to read data, send transactions, and get information about the network.
 Side chains
 smart contracts
 speed and efficiency

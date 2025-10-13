@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "57853ae525f16a5e",
+        "id": "8c28d63464393155",
         "type": "tabs",
         "children": [
           {
-            "id": "6e9dc396f0c0b47c",
+            "id": "d87fa397a4f98a44",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Hardhat.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Hardhat"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "core",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -165,35 +169,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0129b3d0f7736d4",
+  "active": "d87fa397a4f98a44",
   "lastOpenFiles": [
-    "JS/notes/env.md",
-    "JS/notes/Nullish Coalescing Operator.md",
-    "BC/Notes/library.md",
-    "BC/Notes/Constructor.md",
-    "BC/Notes/Modifier.md",
+    "2025-10-13.md",
+    "Hardhat.md",
     "BC/Notes/SOME IMPORTANT TERMS.md",
-    "BC/Notes/BigNumber in Ethers.js.md",
-    "JS/notes/BigInt (blockchain).md",
-    "react.js/notes/props, rules, Prop drilling.md",
-    "react.js/notes/Controlled Component.md",
-    "BC/Notes/Compile in js.md",
-    "node.js/notes/fs-extra.md",
     "BC/Notes/ethers.js.md",
     "BC/Notes/Ganache.md",
-    "BC/Notes/WSL, Gitpod.md",
-    "BC/Notes/ways to make the contract gas efficient.md",
-    "BC/Notes/transferring eth from contract to wallet.md",
-    "JS/notes/Node.js, NPM, corepack, yarn.md",
-    "JS/notes/What is promise.md",
-    "JS/notes/What is TypeScript.md",
-    "JS/notes/Map, filter and reduce.md",
-    "JS/notes/popups.md",
-    "JS/notes/splice and slice.md",
-    "JS/notes/sorting.md",
-    "JS/notes/Rest and Spread  Operator.md",
-    "JS/notes/Optional chaining.md",
-    "Untitled",
+    "JS TS/notes TS/non-null assertion operator.md",
+    "JS TS/notes TS/Setup TS in VS code.md",
+    "node.js/notes/CommonJS.md",
+    "node.js/notes/fs-extra.md",
+    "node.js/notes/Postman.md",
+    "Untitled.base",
+    "JS TS/notes JS/AJAX.md",
+    "JS TS/notes TS",
+    "Component.md",
+    "react.js/notes/Controlled Component.md",
+    "BC/Notes/Modifier.md",
+    "BC/Notes/receive(), fallback().md",
+    "BC/Notes/Transaction Fields.md",
+    "BC/Notes/version and license.md",
+    "BC/Notes/low level interaction, calldata (transact).md",
+    "BC/Notes/Oracle Network.md",
+    "BC/Notes/library.md",
+    "BC/Notes/BigNumber in Ethers.js.md",
+    "BC/Notes/Compile in js.md",
+    "BC/Notes/Constructor.md",
+    "JS TS/notes JS/env.md",
+    "JS TS/notes JS/Nullish Coalescing Operator.md",
+    "JS TS/notes JS/BigInt (blockchain).md",
     "DBMS/notes",
     "OS and COA/notes",
     "OOP/notes",
@@ -204,7 +209,6 @@
     "All Images",
     "All Images/React images/Pasted image 20250922185741.jpg",
     "Pasted image 20250922185704.jpg",
-    "1721512746821.jpeg",
-    "BC/Notes"
+    "1721512746821.jpeg"
   ]
 }
