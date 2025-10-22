@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "dbbd7f7c9728fff3",
+        "id": "fd07d612a215c6a0",
         "type": "tabs",
         "children": [
           {
-            "id": "016fc9d515ee2322",
+            "id": "e078e84d96576d8a",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "DBMS/notes/Window Functions.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Window Functions"
             }
           }
         ]
@@ -49,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "aci",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "DBMS/notes/Window Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Welcome"
+              "title": "Backlinks for Window Functions"
             }
           },
           {
@@ -109,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "DBMS/notes/Window Functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from Welcome"
+              "title": "Outgoing links from Window Functions"
             }
           },
           {
@@ -165,9 +169,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d0129b3d0f7736d4",
+  "active": "e078e84d96576d8a",
   "lastOpenFiles": [
+    "DBMS/notes/WHERE.md",
+    "DBMS/notes/Subqueries.md",
+    "DBMS/notes/SELECT.md",
+    "DBMS/notes/MySQL Introduction.md",
+    "DBMS/notes/LIMIT and OFFSET.md",
+    "DBMS/notes/JOINS.md",
+    "DBMS/notes/HAVING.md",
+    "DBMS/notes/GROUP BY.md",
+    "DBMS/notes/CTE.md",
+    "DBMS/notes/CASE.md",
+    "DBMS/notes/Window Functions.md",
+    "INNER JOIN.md",
+    "All Images/DBMS images",
+    "All Images/DBMS images/Pasted image 20251022134631.png",
     "Untitled.base",
+    "DBMS/notes/my sql commands",
     "BC/Notes/Hardhat.md",
     "JS TS/notes JS/AJAX.md",
     "BC/Notes/WSL, Gitpod.md",
@@ -183,25 +202,12 @@
     "JS TS/notes TS",
     "Component.md",
     "react.js/notes/Controlled Component.md",
-    "BC/Notes/Modifier.md",
-    "BC/Notes/receive(), fallback().md",
-    "BC/Notes/Transaction Fields.md",
-    "BC/Notes/version and license.md",
-    "BC/Notes/low level interaction, calldata (transact).md",
-    "BC/Notes/Oracle Network.md",
-    "BC/Notes/library.md",
-    "BC/Notes/BigNumber in Ethers.js.md",
-    "BC/Notes/Compile in js.md",
-    "BC/Notes/Constructor.md",
-    "JS TS/notes JS/env.md",
     "DBMS/notes",
     "OS and COA/notes",
     "OOP/notes",
     "OS and COA",
     "DBMS",
     "OOP",
-    "All Images/React images",
-    "All Images",
     "All Images/React images/Pasted image 20250922185741.jpg",
     "Pasted image 20250922185704.jpg",
     "1721512746821.jpeg"
