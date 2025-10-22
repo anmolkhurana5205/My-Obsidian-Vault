@@ -33,3 +33,9 @@ Hardhat is a **development environment for Ethereum** and other EVM-compatible b
     - Works seamlessly with **Ethers.js**, **Web3.js**, **TypeChain**, and testing libraries.
     - Can generate TypeScript types for smart contracts (via **TypeChain**) for safer development.
 
+Steps to setup a project using a hardhat project
+1. yarn init -y
+2. yarn add --dev hardhat
+3. yarn hardhat --init
+
+Setup Done
