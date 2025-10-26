@@ -32,3 +32,20 @@ ORDER BY columns
 LIMIT n;
 ```
 
+### Execution Order (VERY IMPORTANT)
+
+When SQL executes, the actual order is **different** from how you write it.
+
+| Logical Order | Clause   |
+| ------------- | -------- |
+| 1             | FROM     |
+| 2             | JOIN     |
+| 3             | WHERE    |
+| 4             | GROUP BY |
+| 5             | HAVING   |
+| 6             | SELECT   |
+| 7             | ORDER BY |
+| 8             | LIMIT    |
+| 9             | OFFSET   |
+### Aliases
+- After aliasing, you **must use the aliases**

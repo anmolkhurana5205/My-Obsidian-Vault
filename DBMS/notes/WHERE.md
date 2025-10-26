@@ -31,7 +31,7 @@ SELECT * FROM employees
 WHERE salary > 60000 AND department = 'Finance';
 ```
 
-#### 3. **BETWEEN**
+#### 3. **BETWEEN** (default inclusive)
 - Used to check if a value lies **between** a range (inclusive).
 ``` mysql
 SELECT * FROM employees
@@ -91,7 +91,7 @@ WHERE (department = 'IT' OR department = 'Finance')
 This ensures `salary > 50000` applies to both IT and Finance departments.
 
 
-### WHERE with UPDATE / DELETE
+### WHERE with [[UPDATE]] / DELETE
 
 #### Update:
 ``` mysql

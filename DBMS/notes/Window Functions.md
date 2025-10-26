@@ -21,14 +21,38 @@ These assign a rank or number to each row based on some order:
 1. **`ROW_NUMBER()`**
     - Assigns a unique sequential number to rows.
     - Ties are not allowed; each row gets a different number.
+```
+SELECT name, salary,
+       ROW_NUMBER() OVER (ORDER BY salary DESC) AS row_num
+FROM employees;
+```
+**No ties — every row gets its own number.**
 2. **`RANK()`**
     - Assigns the same rank to ties but **skips subsequent ranks**.
     - Example: salaries 120, 100, 100 → ranks 1, 2, 2, next is 4.
-3. **`DENSE_RANK()`**
+```
+SELECT name, salary,
+       RANK() OVER (ORDER BY salary DESC) AS rank_no
+FROM employees;
+```
+ties are allowed
+2. **`DENSE_RANK()`**
     - Like `RANK()`, but **no gaps** in ranks.
     - Example: salaries 120, 100, 100 → ranks 1, 2, 2, next is 3.
-4. **`NTILE(n)`**
+```
+SELECT name, salary,
+       DENSE_RANK() OVER (ORDER BY salary DESC) AS dense_rank_no
+FROM employees;
+```
+no ties
+2. **`NTILE(n)`**
     - Divides rows into `n` roughly equal groups (percentiles/quartiles).
+```
+SELECT name, salary,
+       NTILE(3) OVER (ORDER BY salary DESC) AS bucket
+FROM employees;
+```
+
 
 #### b) Aggregate Functions as Window Functions
 Normal aggregate functions can also act as window functions:
@@ -58,6 +82,23 @@ This is very useful for trends, differences, or comparisons.
 - **`ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW`** → running total up to current row.
 - **`ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING`** → includes one row before and after current row.
 - This gives **fine-grained control** over which rows to include in calculations.
+```
+SELECT day, sales,
+       SUM(sales) OVER (
+           ORDER BY day
+           ROWS BETWEEN UNBOUNDED PRECEDING AND CURRENT ROW
+       ) AS running_total
+FROM sales;
+```
+
+```
+SELECT day, sales,
+       AVG(sales) OVER (
+           ORDER BY day
+           ROWS BETWEEN 1 PRECEDING AND 1 FOLLOWING
+       ) AS moving_avg
+FROM sales;
+```
 
 ### Key Concepts
 1. **Partitioning**: `PARTITION BY` defines groups. Window function calculations restart for each partition.

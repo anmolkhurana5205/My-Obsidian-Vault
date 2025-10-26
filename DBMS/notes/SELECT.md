@@ -99,13 +99,14 @@ SELECT * FROM employees ORDER BY dept_id ASC, salary DESC;
 
 Used for calculations on groups of rows.
 
-| Function  | Description   |
-| --------- | ------------- |
-| `COUNT()` | Count of rows |
-| `SUM()`   | Sum of values |
-| `AVG()`   | Average value |
-| `MIN()`   | Minimum       |
-| `MAX()`   | Maximum       |
+| Function         | Description                       | Example                     |
+| ---------------- | --------------------------------- | --------------------------- |
+| `SUM()`          | Adds up all values in a column    | `SUM(salary)`               |
+| `COUNT()`        | Counts rows (or non-NULL values)  | `COUNT(*)`, `COUNT(column)` |
+| `AVG()`          | Returns the average value         | `AVG(price)`                |
+| `MIN()`          | Returns the smallest value        | `MIN(age)`                  |
+| `MAX()`          | Returns the largest value         | `MAX(salary)`               |
+| `GROUP_CONCAT()` | Concatenates values into a string | `GROUP_CONCAT(name)`        |
 ``` mysql
 SELECT COUNT(*) FROM employees;
 SELECT AVG(salary) FROM employees;
