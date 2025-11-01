@@ -6,7 +6,7 @@ Inheritance allows you to create a new contract by reusing code from an existing
 - A derived (child) contract automatically gets access to **all public and internal** state variables and functions from the parent contract.
 - Multiple inheritance is supported, but Solidity uses **C3 linearization** (a specific order resolution for parent contracts) to avoid ambiguity.
 
-```
+``` solidity
 // Parent contract
 contract Animal {
     function sound() public pure returns (string memory) {
@@ -33,7 +33,7 @@ Rules:
 2. The child function must be marked `override`.
 3. If there are multiple parents with the same function, you must specify **all of them** inside `override(A, B)`.
 
-```
+``` solidity
 // Parent contract
 contract Animal {
     function sound() public pure virtual returns (string memory) {
@@ -54,7 +54,7 @@ Child function `sound()` uses `override` to replace the parent’s implementatio
 ### 🔹 Multiple Inheritance & Override
 When two parent contracts have the same function name, you need to resolve it explicitly.
 
-```
+``` solidity
 contract A {
     function foo() public pure virtual returns (string memory) {
         return "A";

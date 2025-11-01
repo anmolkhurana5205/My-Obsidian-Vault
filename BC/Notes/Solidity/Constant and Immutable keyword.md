@@ -5,7 +5,7 @@
 - **Storage:** Not stored in contract storage → instead, the value is replaced **directly in bytecode** wherever used.
 - **Gas efficiency:** Cheapest to use, because no storage read is required.
 - **Example:**
-```
+``` solidity
 uint256 public constant MINIMUM_USD = 50 * 1e18;
 ```
 - The value `50 * 1e18` is fixed forever.
@@ -21,7 +21,7 @@ uint256 public constant MINIMUM_USD = 50 * 1e18;
 - **Storage:** Stored once but in a cheaper way (directly in contract’s bytecode, not normal storage).
 - **Gas efficiency:** Slightly more expensive than `constant` but much cheaper than regular `storage` variables.
 - **Example:**
-```
+``` solidity
 uint256 public immutable MINIMUM_USD;
 
 constructor(uint256 _usd) {

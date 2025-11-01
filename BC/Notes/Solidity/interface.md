@@ -16,7 +16,7 @@ It defines the **function signatures** (name, parameters, and return types) but 
 5. They can inherit from other interfaces.
 
 ## 🔹 Example: Basic Interface
-```
+``` solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.7;
 
@@ -28,7 +28,7 @@ This interface defines two functions but doesn’t say **how** they work.
 ```
 
 ## 🔹 Using an Interface
-```
+``` solidity
 contract Calculator is ICalculator {
     function add(uint256 a, uint256 b) external pure override returns (uint256) {
         return a + b;
@@ -53,7 +53,7 @@ contract Calculator is ICalculator {
 3. **Modularity & Upgradability**
     - Interfaces separate **definition** from **implementation**, making systems more flexible.
 # Example in my Own  code
-```
+``` solidity
 // Get funds from the users
 // Withdraw funds
 // Set a minimum funding value in USD

@@ -64,7 +64,5 @@
 - **Must specify data location** when used in function parameters or variables inside functions:
     
     - `storage` → permanent, blockchain-persisted
-        
     - `memory` → temporary, editable, lasts only during function execution
-        
     - `calldata` → temporary, read-only, cheaper (external functions only)

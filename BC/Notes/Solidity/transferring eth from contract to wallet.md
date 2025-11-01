@@ -1,5 +1,5 @@
 ## 1️⃣ Using `transfer`
-```
+``` solidity
 payable(msg.sender).transfer(amount);
 ```
 **Details:**
@@ -14,7 +14,7 @@ payable(msg.sender).transfer(amount);
 - Can break if the recipient is a contract needing more than 2300 gas (because of EIP-1884).
 
 ## 2️⃣ Using `send`
-```
+``` solidity
 bool sent = payable(msg.sender).send(amount);
 require(sent, "Send failed");
 ```
@@ -30,7 +30,7 @@ require(sent, "Send failed");
 - You must check the return value using `require` or `if`, otherwise failure is ignored.
 
 ## 3️⃣ Using `call` (recommended in modern Solidity)
-```
+``` solidity
 (bool sent, ) = payable(msg.sender).call{value: amount}("");
 require(sent, "Call failed");
 ```

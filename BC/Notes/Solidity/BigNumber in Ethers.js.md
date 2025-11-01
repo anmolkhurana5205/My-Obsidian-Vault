@@ -1,5 +1,5 @@
 Ethers.js provides its own **BigNumber class**, especially useful when working with token amounts (like `wei`) and when you need methods instead of native operators:
-```
+``` solidity
 import { BigNumber } from "ethers";
 
 const a = BigNumber.from("1000000000000000000"); // 1 ETH in wei
@@ -12,7 +12,7 @@ console.log(sum.toString()); // "3000000000000000000"
 - Arithmetic is done with **methods**, not `+` or `*`.
 - `.toString()` is required when displaying or logging, because BigNumber objects are objects, not primitives.
 ### Common BigNumber Methods (Ethers.js):
-```
+``` solidity
 a.add(b)      // addition
 a.sub(b)      // subtraction
 a.mul(b)      // multiplication

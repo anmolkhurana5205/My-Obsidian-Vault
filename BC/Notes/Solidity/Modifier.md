@@ -15,7 +15,7 @@ a **modifier** is like a **special reusable condition or rule** that you can att
     - A function can have **more than one modifier**, and they are executed in the order they are listed.
 
 ## 🔹 Example 1: Basic Modifier
-```
+``` solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -41,7 +41,7 @@ Here, only the owner can call `changeOwner`. If anyone else tries, it will rever
 ```
 
 ## 🔹 Example 2: Modifier with Parameters
-```
+``` solidity
 pragma solidity ^0.8.0;
 
 contract Bank {
@@ -61,7 +61,7 @@ The `minBalance` modifier checks if the caller has enough balance before withdra
 ```
 
 ## 🔹 Example 3: Multiple Modifiers
-```
+``` solidity
 modifier onlyOwner() {
     require(msg.sender == owner, "Not the owner!");
     _;

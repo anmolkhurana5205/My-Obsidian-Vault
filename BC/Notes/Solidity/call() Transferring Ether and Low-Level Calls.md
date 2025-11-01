@@ -8,7 +8,7 @@
 It’s the **replacement for `send` and `transfer`** in modern Solidity because it overcomes their 2300 gas limit.
 
 ### 2️⃣ Syntax
-```
+``` solidity
 (bool success, bytes memory data) = address.call{value: amount, gas: gasAmount}(encodedFunctionCall);
 ```
 
@@ -22,7 +22,7 @@ It’s the **replacement for `send` and `transfer`** in modern Solidity because 
     - `data` → returned data from the function
 
 ### 3️⃣ Simple Ether Transfer Example
-```
+``` solidity
 (bool sent, ) = payable(msg.sender).call{value: 1 ether}("");
 require(sent, "Transfer failed");
 ```

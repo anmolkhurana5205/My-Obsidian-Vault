@@ -4,7 +4,7 @@ When you pass variables to functions, Solidity needs to know **where the data wi
 - **`memory`** → temporary data stored only during function execution, deleted afterward.
 - **`calldata`** → similar to memory but **read-only**, used for external function inputs.
 
-```
+``` solidity
 EXAMPLE (MEMORY)
 function addPerson(string memory _name, uint256 _favNumber) public{
 

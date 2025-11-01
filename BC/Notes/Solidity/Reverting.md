@@ -10,19 +10,19 @@ Think of it like:
 
 A transaction reverts in Solidity if:
 1. **`require` fails** → Used for input validation, conditions, permissions.
-```
+``` solidity
 require(balance[msg.sender] >= amount, "Not enough funds");
 ```
 
 2. **`revert()` is called** → Explicitly revert with an error message.
-```
+``` solidity
 if (amount == 0) {
     revert("Amount cannot be zero");
 }
 ```
 
 3. **`assert` fails** → Used for checking internal logic errors. If this fails, it means a bug.
-```
+``` solidity
 assert(totalSupply == balances[owner] + balances[user]);
 ```
 

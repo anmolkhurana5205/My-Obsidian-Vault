@@ -25,7 +25,7 @@
 - This makes the code look object-oriented (`x.add(y)` instead of `LibraryName.add(x, y)`).
 
 ## 🔹 Example Library
-```
+``` solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 

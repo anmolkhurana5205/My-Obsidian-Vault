@@ -19,7 +19,7 @@ The constructor is like a **setup function** that runs once at deployment, usefu
     - If you don’t define a constructor, Solidity automatically creates a default constructor with no parameters.
 
 ### 🔹 Example 1: Simple Constructor
-```
+``` solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -34,7 +34,7 @@ contract MyContract {
 ```
 
 ### 🔹 Example 2: Constructor with Parameters
-```
+``` solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -52,7 +52,7 @@ When deploying, you must give name and supply, e.g., "MyToken", 1000.
 ```
 
 ### 🔹 Example 3: Constructor with Inheritance
-```
+``` solidity
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 

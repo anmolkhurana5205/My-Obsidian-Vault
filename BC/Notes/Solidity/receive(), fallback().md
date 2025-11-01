@@ -5,7 +5,7 @@
 - The `receive()` function is a **special function that executes when a contract receives plain Ether** (without any calldata).
 - It was introduced in Solidity 0.6.0.
 - **Signature:**
-```
+``` solidity
 receive() external payable {
     // logic when Ether is sent
 }
@@ -23,7 +23,7 @@ receive() external payable {
 ### 2. `fallback()` function
 - The `fallback()` function is executed **when no other function matches the called function signature** or when Ether is sent and there’s no `receive()` function.
 - **Signature:**
-```
+``` solidity
 fallback() external [payable] {
     // logic when no function matches
 }

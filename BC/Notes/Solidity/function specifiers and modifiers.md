@@ -25,7 +25,7 @@
 	- The function **reads state** but does **not modify** it.
 	- Can read state variables, balance, mappings, etc.
 	- Cannot modify storage variables.
-```
+``` solidity
 uint public num = 5;
 function getNum() public view returns (uint) {
     return num; // allowed (reading state)
@@ -34,7 +34,7 @@ function getNum() public view returns (uint) {
 - pure
 	- The function does **not read or modify** blockchain state.
 	- It can only use its parameters or do calculations.
-```
+``` solidity
 function add(uint a, uint b) public pure returns (uint) {
     return a + b; // pure calculation
 }
@@ -42,14 +42,14 @@ function add(uint a, uint b) public pure returns (uint) {
 - payable
 	- Special modifier that allows the function to **receive Ether**.
 	- Without `payable`, a function cannot accept Ether.
-```
+``` solidity
 function deposit() public payable {
     // Ether sent is stored in contract's balance
 }
 ```
 - No Modifier (default)
 	- If a function has **no specifier**, it can **both read and modify state**.
-```
+``` solidity
 uint public count;
 
 function increment() public {

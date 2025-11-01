@@ -1,4 +1,4 @@
-```
+``` bash
 yarn solcjs --bin --abi --include-path node_modules/ --base-path . -o . SimpleStorage.sol
 ```
 This command uses **Yarn** to run **`solcjs`**, which is the **JavaScript version of the Solidity compiler (solc)**.

@@ -28,18 +28,18 @@ The library mainly revolves around 3 key concepts:
 |**Contract**|Lets you interact with smart contracts (read/write data)|
 
 ## 🧰 Installation
-```
+``` bash
 npm install ethers
 ```
 or
-```
+``` bash
 yarn add ethers
 ```
 
 ## ⚡ Basic Example
 
 ### 1️⃣ Connect to Ethereum
-```
+``` solidity
 import { ethers } from "ethers";  
 
 // Connect to public network (like mainnet) 
@@ -55,21 +55,21 @@ const provider = new ethers.JsonRpcProvider("https://mainnet.infura.io/v3/YOUR_I
 
 ### 2️⃣ Read from Blockchain
 
-```
+``` js
 const blockNumber = await provider.getBlockNumber(); 
 console.log("Current Block:", blockNumber);
 ```
 
 ### 3️⃣ Connect Wallet (like MetaMask)
 
-```
+``` js
 const provider = new ethers.BrowserProvider(window.ethereum);
 const signer = await provider.getSigner();
 console.log("Your Address:", await signer.getAddress());
 ```
 
 ### 4️⃣ Interact with a Smart Contract
-```
+``` js
 const contractAddress = "0xYourContractAddress";
 const abi = [ "function getValue() view returns (uint)" ];
 
@@ -80,7 +80,7 @@ console.log("Stored Value:", value.toString());
 
 ### 5️⃣ Write to Blockchain (Send Transaction)
 
-```
+``` js
 const contractWithSigner = contract.connect(signer);
 const tx = await contractWithSigner.setValue(42);
 await tx.wait();

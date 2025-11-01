@@ -15,16 +15,16 @@ Note: Space is non alphanumeric.
 | `REGEXP_REPLACE()` _(MySQL 8+)_ | Remove or replace patterns                   |
 
 ### **Patterns (Regular Expressions)**
-|Symbol|Meaning|
-|---|---|
-|`[ ]`|Character group|
-|`[^ ]`|NOT this group|
-|`\w`|Word character → **A–Z, a–z, 0–9, _**|
-|`\W`|Anything **not** `\w` (special characters)|
-|`+`|One or more repetitions|
-|`*`|Zero or more repetitions|
-|`^`|Start of string|
-|`$`|End of string|
+| Symbol | Meaning                                    |
+| ------ | ------------------------------------------ |
+| `[ ]`  | Character group                            |
+| `[^ ]` | NOT this group                             |
+| `\w`   | Word character → **A–Z, a–z, 0–9, _**      |
+| `\W`   | Anything **not** `\w` (special characters) |
+| `+`    | One or more repetitions                    |
+| `*`    | Zero or more repetitions                   |
+| `^`    | Start of string                            |
+| `$`    | End of string                              |
 
 ### **Detect Different Character Types**
 1. **Only Letters**
@@ -67,6 +67,22 @@ If the value itself contains `%` or `_`:
 ```
 WHERE column_name LIKE '%\_%' ESCAPE '\';
 ```
+
+### Why we need escape character in regexp
+certain characters have **special meanings**, like: .  *  +  ?  ^  $  (  )  [  ]  {  }  |  \
+So, if you want to **match them literally**,  
+you must **escape them with a backslash (`\`)** in regex.
+
+Example:
+- `.` → any character (special meaning)
+- `\.` → literal dot (like in `leetcode.com`) ✅
+
+### The double-escape problem in SQL
+In MySQL, your regex sits **inside a SQL string**,  
+and **SQL itself also uses backslash (`\`)** as an escape character.
+so to fix this issue
+you should double backlash.
+
 
 ### Remove Special Characters
 MySQL 8+:
