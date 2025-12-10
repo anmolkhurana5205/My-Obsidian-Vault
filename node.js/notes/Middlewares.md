@@ -3,20 +3,19 @@ A **middleware** in Express is **a function that runs between the request coming
 It can:
 
 - Look at the incoming request (`req`)
-    
 - Modify the request or response
-    
 - Run some code (like logging, authentication, validation)
-    
 - Decide whether to pass control to the next middleware or end the response
 ---
 ### Syntax of Middleware
 
+```
 function middlewareName(req, res, next) {   
 	// Your logic here   
 	console.log('Middleware is running');   
 	next(); // pass control to the next middleware/route 
 }
+```
 
 app.use([logger,  authorize]);
 // order matters in the above one
