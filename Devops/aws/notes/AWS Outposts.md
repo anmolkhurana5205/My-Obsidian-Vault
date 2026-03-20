@@ -1,0 +1,2 @@
+This one is designed for organizations that need a hybrid-cloud solution. If you want to leverage the power of AWS while keeping some of your infrastructure on premises, Outposts is the answer. Outposts extends AWS services to your on-premises data center, giving you a consistent experience across both environments. You get to run AWS services locally, while still benefiting from cloud computing. This is perfect for meeting specific needs, like low latency, data residency, or integration for hybrid deployments.
+

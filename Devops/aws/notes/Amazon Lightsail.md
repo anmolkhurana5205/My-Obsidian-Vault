@@ -1,0 +1,1 @@
+simplifies web application hosting by giving you a relatively easy, cost-effective solution for running specific types of applications and websites. It takes care of a lot of the complexity that comes with traditional web application hosting, and it's a great option if you want something quick and easy to manage!

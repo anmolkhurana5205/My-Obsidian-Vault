@@ -4,20 +4,37 @@
     "type": "split",
     "children": [
       {
-        "id": "3f50bc751047349a",
+        "id": "f104aa8666e4bb8e",
         "type": "tabs",
         "children": [
           {
-            "id": "b9ed2670650b6ff1",
+            "id": "3d8e70bee07460db",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "Provider, Signer.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Provider, Signer"
+            }
+          },
+          {
+            "id": "45c91b7d9d542bf7",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.12.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.12.4"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -49,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "middleware",
+                "query": "export default",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,49 +180,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b9ed2670650b6ff1",
+  "active": "45c91b7d9d542bf7",
   "lastOpenFiles": [
-    "next.js/notes/Middleware.md",
-    "node.js/notes/Middlewares.md",
-    "node.js/notes/express.js.md",
-    "database and ORM/notes/Neon DB.md",
-    "database and ORM/notes/Prisma.md",
-    "database and ORM/notes/ORM.md",
-    "Provider, Signer.md",
+    "All Images/React images/Pasted image 20260205053259.png",
+    "All Images/React images/Pasted image 20260205053155.png",
+    "All Images/React images/Pasted image 20260205051557.png",
+    "All Images/React images/Pasted image 20250922185741.jpg",
+    "Devops/aws/notes/Amazon VPC.md",
+    "Devops/aws/notes/AWS Batch.md",
+    "Devops/aws/notes/Amazon Event Bridge.md",
+    "JS TS/notes JS/different exports in js.md",
+    "node.js/notes/CommonJS.md",
+    "react native/notes/a normal example of react app.md",
+    "react.js/notes/Components/component composition.md",
+    "react.js/notes/Components",
+    "react.js/notes/Components/different types of components.md",
+    "react.js/notes/props, rules, Prop drilling.md",
+    "react.js/notes/difference between create react app and vite.md",
+    "react.js/notes/Children Prop.md",
+    "All Images/Devops images/Pasted image 20260118183152.png",
+    "Devops/aws/notes/AWS Edge Locations.md",
+    "Devops/aws/notes/Amazon Lightsail.md",
+    "Devops/aws/notes/Containers and Orchestration on AWS.md",
+    "Devops/aws/notes/AWS Elastic Beanstalk.md",
+    "Devops/aws/notes/AWS Lambda.md",
+    "Devops/aws/notes/AWS Outposts.md",
+    "All Images/Devops images/Pasted image 20260118160735.png",
+    "Devops/aws/notes/Containers vs VMs.md",
+    "All Images/Devops images/Pasted image 20260118160528.png",
+    "Devops/aws/notes/Hypervisor.md",
+    "All Images/Devops images/Pasted image 20260117183957.png",
+    "All Images/Devops images/Pasted image 20260117184012.png",
+    "All Images/Devops images",
+    "Devops/aws/notes/Tightly VS Loosely Coupled Architecture.md",
+    "Devops/aws/notes/Elastic Load Balancing (ELB).md",
+    "Devops/aws/notes/Amazon SNS.md",
+    "Devops/aws/notes/Types of Services.md",
+    "All Images/Devops images/Pasted image 20260118151333.png",
+    "Devops/aws/notes/Amazon SQS.md",
+    "Devops/aws/notes/EC2.md",
+    "All Images/Devops images/Pasted image 20260117184023.png",
+    "Devops/aws/notes",
+    "Devops/aws",
+    "Devops/Docker/notes",
+    "Devops/Docker",
+    "Devops",
     "database and ORM/notes",
     "database and ORM",
-    "RUST/notes/memory management in rust.md",
-    "RUST/notes/functions in rust.md",
-    "RUST/notes/string in rust.md",
-    "RUST/notes/loops in rust.md",
-    "RUST/notes/print in rust.md",
-    "RUST/notes/Introduction to RUST.md",
-    "RUST/notes/defining variable in rust.md",
-    "react native/notes/components of react native.md",
-    "react native/notes/diagram_react-native-components_dark.svg",
-    "react native/notes/a normal example of react app.md",
-    "All Images/React Native images",
-    "All Images/React Native images/Pasted image 20251123231701.png",
-    "react native/notes",
-    "react native",
-    "DBMS/notes/Window Functions.md",
-    "DBMS/notes/SELECT.md",
-    "next.js/notes/keywords.md",
-    "react.js/notes/Suspense.md",
-    "RUST/notes",
-    "RUST",
-    "next.js/notes/Metadata.md",
-    "node.js/notes/Axios.md",
-    "new.md",
-    "next.js/notes/NextResponse and NextRequest.md",
-    "RUST/notes",
-    "harkirat/web dev",
-    "harkirat",
-    "JS TS/notes JS/Optional chaining.md",
-    "JS TS/notes JS/Nullish Coalescing Operator.md",
-    "All Images/DBMS images/Pasted image 20251022134631.png",
-    "All Images/React images/Pasted image 20250922185741.jpg",
-    "Pasted image 20250922185704.jpg",
-    "1721512746821.jpeg"
+    "All Images/React Native images"
   ]
 }
