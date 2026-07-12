@@ -22,6 +22,9 @@ there are two modes in this insert mode and normal mode (command mode)
 when you are in normal mode write i to enter into the insert mode. to confirm you are in insert mode you will see --insert-- at the bottom.
 when you are in cmd mode(normal mode) write colon (:) and write one word command like w for saving, q for exit.
 
+curl - `curl` (Client URL) is a **command-line tool used to send requests to a URL and receive the response**. It's commonly used to test APIs, websites, and web servers.
+ex - curl localhost
+
 
 
 

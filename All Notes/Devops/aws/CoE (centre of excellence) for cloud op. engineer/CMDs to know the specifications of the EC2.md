@@ -1,0 +1,7 @@
+- cat /etc/os-release (os details)
+- free -m (memory info)
+- df -h (disk usage)
+- lscpu (cpu info)
+- lsblk (to list the block devices - storage device info like hard drives, SSDs, flash drives, and partitions attached to the  instance)
+- ip a (to display and manage IP addresses, subnet masks, and network interfaces)
+- 
